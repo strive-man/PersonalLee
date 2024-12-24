@@ -39,7 +39,7 @@ baseMusicListBox.appendChild(fragment);
 /**
  * 自动填充文字部分
  */
-let text = "Happy Every Day!<br>To:The Best Of You <br>【24秋Java】";
+let text = "Merry Christmas<br>To:LWF";
 /**
  * 获取 url 参数
  * @param {*} variable 传入 key
