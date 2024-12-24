@@ -65,16 +65,6 @@ body {
   margin: 2vmin 0;
 }
 
-#moving-image{ position: absolute; z-index: 10; }
-
-#moving-image {
-    position: absolute;
-    bottom: 0; /* 定位到底部 */
-    left: 20%; /* 定位到水平中间 */
-    transform: translateX(-50%); /* 调整水平居中 */
-    animation: spin 4s linear infinite; /* 保留旋转效果 */
-}
-
 /* 列表中每个选择按钮的大小，颜色，动画等 */
 #music-list-box ul .btn,
 #music-list-box ul .upload-btn {
@@ -136,4 +126,5 @@ body {
 }
 
 
-@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+/* @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } } */
